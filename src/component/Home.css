@@ -1,0 +1,48 @@
+
+.home{
+    background-image:url(./pics/home-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+
+}
+body {
+    overflow: hidden;
+  }
+  nav {
+    padding: 10px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 80%;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: gray;
+    color: black;
+  }
+  .text{
+    color: whitesmoke;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 45px;
+   font-style:italic;
+   font-weight: bolder;
+   
+  }
+  .textBox{
+    left: 50%;
+   transform: translate(-50%, -50%);
+   position: absolute;
+   margin-top: 130px;
+
+  }

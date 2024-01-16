@@ -1,0 +1,66 @@
+nav {
+    padding: 10px;
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 80%;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: gray;
+    color: black;
+  }
+  .Search{
+    background-image:url(./pics/kiii.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.inputBox {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: black;
+  }
+  
+  .searchButton {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .searchButton:hover {
+    background-color: gray;
+    color: black;
+  }
+  .inputDiv{
+   margin-top: 100px;
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  }
+ .resultDiv {
+  margin-top: 20px;
+  color: white; 
+  position: absolute;
+  margin-left: 25px;
+  height: 90vh;
+  width: auto;
+  overflow-y: scroll;
+}
+.errorDiv {
+  margin-top: 20px;
+  color: white;  
+}
